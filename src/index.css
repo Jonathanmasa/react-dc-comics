@@ -59,10 +59,7 @@ header {
 
 
 /* footer */
-.footer {
-  background-color: #222;
-  padding: 40px 0;
-}
+
 .footer li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -74,6 +71,17 @@ header {
 
 .foot-jumbotron {
   background-image: url(/public/footer-bg.jpg);
+  
+}
+
+.foot-jumbotron img{
+  width: 30%;
+}
+
+.jumbo-width {
+  width: 80%;
+  margin: 0% auto;
+
 }
 
 .footer-bar {
@@ -84,3 +92,12 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+
+.social-icons img {
+  width: 15%;
+}
+
+.social-icons h5 {
+  font-size: 14px;
+}
+
