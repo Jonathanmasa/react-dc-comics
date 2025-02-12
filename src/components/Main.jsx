@@ -7,8 +7,8 @@ export default function Main() {
             <h2>-- Content goes here --</h2>
         </div>
         
-        <div className="blue-bar text-center text-white loghi-main">
-            <div className="container d-flex justify-content-around align-items-center dc-main-loghi">
+        <div className="blue-bar text-white loghi-main">
+            <div className="container d-flex justify-content-between align-items-center dc-main-loghi">
                 <div><img src="/public/buy-comics-digital-comics.png" alt="Digital Comic" />Digital Comics</div>
                 <div><img src="/public/buy-comics-merchandise.png" alt="DC Merchandise" />DC Merchandise</div>
                 <div><img src="/public/buy-comics-subscriptions.png" alt="Subscription" />Subscription</div>

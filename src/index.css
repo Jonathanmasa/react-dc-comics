@@ -24,9 +24,6 @@ header {
   background-color: #111;
   height: 100px;
   
-  
-  
-  
 }
 
 .content h2 {
@@ -44,24 +41,46 @@ header {
 
 .dc-main-loghi {
   width: 80%;
-  margin: 0% auto;
   font-size: 12px;
+  
 
 }
 
 .dc-main-loghi div{
   line-height: 90px;
   vertical-align: middle;
+  
 }
 
 .loghi-main img {
   width: 15%;
-  margin: 10px;
+  
 }
 
 
 /* footer */
 .footer {
   background-color: #222;
-  padding: 20px 0;
+  padding: 40px 0;
+}
+.footer li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+ 
+}
+
+.foot-jumbotron {
+  background-image: url(/public/footer-bg.jpg);
+}
+
+.footer-bar {
+  background-color: rgb(32, 32, 32);
+}
+
+.last-footer {
+  width: 80%;
+  margin: 0 auto;
 }
