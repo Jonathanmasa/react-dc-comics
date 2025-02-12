@@ -4,6 +4,9 @@
 // import './App.css'
 
 // App.jsx
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Button from 'react-bootstrap/Button';
 import Header from "./components/Header.jsx";
 import Main from "./components/Main.jsx";
 import Footer from "./components/Footer.jsx";

@@ -1,3 +1,4 @@
-main {
-  color: black;
+/* header */
+.navbar-expand-lg {
+  justify-content: space-around;
 }
