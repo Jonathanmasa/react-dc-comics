@@ -1,4 +1,67 @@
+/* general */
+body {
+  background-color: #000;
+  color: white;
+  
+}
+
 /* header */
-.navbar-expand-lg {
-  justify-content: space-around;
+.navbar-header {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+header {
+  background-color: white;
+}
+.navbar-brand img {
+  height: 50px;
+}
+
+/* main */
+.content {
+  background-color: #111;
+  height: 100px;
+  
+  
+  
+  
+}
+
+.content h2 {
+  line-height: 100px;
+  width: 80%;
+  margin: 0% auto;
+
+}
+
+.blue-bar {
+  background-color: #007bff;
+  min-height: 90px;
+
+}
+
+.dc-main-loghi {
+  width: 80%;
+  margin: 0% auto;
+  font-size: 12px;
+
+}
+
+.dc-main-loghi div{
+  line-height: 90px;
+  vertical-align: middle;
+}
+
+.loghi-main img {
+  width: 15%;
+  margin: 10px;
+}
+
+
+/* footer */
+.footer {
+  background-color: #222;
+  padding: 20px 0;
 }

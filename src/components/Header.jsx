@@ -2,7 +2,7 @@
 export default function Header() {
     return (
     <header>
-         <nav className="navbar navbar-expand-lg navbar-light">
+         <nav className="navbar navbar-expand-lg navbar-light navbar-header">
             <div className="container">
                 <a className="navbar-brand" href="#"><img src="/public/dc-logo.png" alt="DC Logo"/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
