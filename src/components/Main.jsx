@@ -2,9 +2,11 @@
 export default function Main() {
     return (
     <main>
-        <main>
-        <div className="content">
-            <h2>-- Content goes here --</h2>
+
+        <div  className="content">
+            <div className="card-contain">
+                <h2>-- Content goes here --</h2>
+            </div>
         </div>
         
         <div className="blue-bar text-white loghi-main py-3">
@@ -56,9 +58,5 @@ export default function Main() {
                 </div>
             </div>
       </div>
-    </main>
-
-
-
-    </main>);
+   </main>);
     }

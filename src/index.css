@@ -1,7 +1,9 @@
 /* general */
 body {
-  color: white;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
 }
 
 /* header */
@@ -12,10 +14,17 @@ body {
 
 }
 
+.nav-link {
+  position: relative;
+  
+}
+
 .nav-link.active {
-  color: blue !important;
-  border-bottom: 4px solid blue !important;
-  padding-bottom: 
+  color: rgb(93, 93, 242) !important;
+  border-bottom: 4px solid  rgb(93, 93, 242) !important;
+  padding-bottom: 30px;
+  margin-bottom: -20px;
+  
 }
 
 header {
@@ -23,7 +32,7 @@ header {
 }
 
 .navbar-brand img {
-  height: 80px;
+  height: 60px;
 }
 
 /* main */
@@ -33,10 +42,15 @@ header {
   
 }
 
-.content h2 {
-  line-height: 100px;
+.card-contain {
   width: 80%;
   margin: 0% auto;
+
+}
+
+.content h2 {
+  line-height: 100px;
+  color: gray;
 
 }
 
@@ -121,7 +135,7 @@ footer li a {
 .social-icons span {
   font-size: 16px;
   margin: 0 5px;
-  color: blue;
+  color: rgb(91, 91, 222);
   font-weight: bold;
 }
 
