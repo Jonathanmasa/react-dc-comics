@@ -45,8 +45,9 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
+                    <img src="/public/dc-logo-bg.png" alt="dc logo" />
                 </div>
-                <img src="/public/dc-logo-bg.png" alt="dc logo" />
+                
             </div>
         <div className="footer-bar">
                 <div className="last-footer d-flex justify-content-between pb-2">
