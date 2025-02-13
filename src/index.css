@@ -1,6 +1,5 @@
 /* general */
 body {
-  background-color: #000;
   color: white;
   
 }
@@ -13,11 +12,18 @@ body {
 
 }
 
+.nav-link.active {
+  color: blue !important;
+  border-bottom: 4px solid blue !important;
+  padding-bottom: 
+}
+
 header {
   background-color: white;
 }
+
 .navbar-brand img {
-  height: 50px;
+  height: 80px;
 }
 
 /* main */
