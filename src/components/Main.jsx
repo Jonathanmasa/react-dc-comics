@@ -9,7 +9,8 @@ export default function Main() {
         
         <div className="blue-bar text-white loghi-main py-3">
             <div className="container col-10 d-flex flex-wrap justify-content-between align-items-center ">
-                <div className="d-flex flex-column align-items-center text-center">
+
+                <div className="d-flex align-items-center col-2">
                     <img
                     src="/public/buy-comics-digital-comics.png"
                     alt="Digital Comic"
@@ -18,7 +19,7 @@ export default function Main() {
                     <span>Digital Comics</span>
                 </div>
 
-                <div className="d-flex flex-column align-items-center text-center">
+                <div className="d-flex align-items-center col-2">
                     <img
                     src="/public/buy-comics-merchandise.png"
                     alt="DC Merchandise"
@@ -27,7 +28,7 @@ export default function Main() {
                     <span>DC Merchandise</span>
                 </div>
 
-                <div className="d-flex flex-column align-items-center text-center">
+                <div className="d-flex align-items-center col-2">
                     <img
                     src="/public/buy-comics-subscriptions.png"
                     alt="Subscription"
@@ -36,7 +37,7 @@ export default function Main() {
                     <span>Subscription</span>
                 </div>
 
-                <div className="d-flex flex-column align-items-center text-center">
+                <div className="d-flex align-items-center col-2">
                     <img
                     src="/public/buy-comics-shop-locator.png"
                     alt="Comic Shop Locator"
@@ -45,7 +46,7 @@ export default function Main() {
                     <span>Comic Shop Locator</span>
                 </div>
 
-                <div className="d-flex flex-column align-items-center text-center">
+                <div className="d-flex align-items-center col-2">
                     <img
                     src="/public/buy-dc-power-visa.svg"
                     alt="DC Power Visa"

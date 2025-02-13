@@ -41,7 +41,6 @@ header {
 
 .dc-main-loghi {
   width: 80%;
-  font-size: 12px;
   
 
 }
@@ -53,8 +52,14 @@ header {
 }
 
 .loghi-main img {
-  width: 15%;
+  width: 25%;
+  margin: 5px;
   
+}
+
+.loghi-main{
+  font-size: 12px;
+
 }
 
 
