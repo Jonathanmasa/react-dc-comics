@@ -15,6 +15,11 @@ export default function Header() {
                         <li className="nav-item"><a className="nav-link" href="#">Movies</a></li>
                         <li className="nav-item"><a className="nav-link" href="#">TV</a></li>
                         <li className="nav-item"><a className="nav-link" href="#">Games</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Collectionables</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Videos</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Fans</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Views</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#">Shop</a></li>
                     </ul>
                 </div>
             </div>

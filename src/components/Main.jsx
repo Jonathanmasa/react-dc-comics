@@ -8,7 +8,7 @@ export default function Main() {
         </div>
         
         <div className="blue-bar text-white loghi-main py-3">
-            <div className="container d-flex flex-wrap justify-content-between align-items-center ">
+            <div className="container col-10 d-flex flex-wrap justify-content-between align-items-center ">
                 <div className="d-flex flex-column align-items-center text-center">
                     <img
                     src="/public/buy-comics-digital-comics.png"
