@@ -8,7 +8,7 @@ export default function Main() {
         </div>
         
         <div className="blue-bar text-white loghi-main py-3">
-            <div className="container col-10 d-flex flex-wrap justify-content-between align-items-center ">
+            <div className="container col-9 d-flex flex-wrap justify-content-between align-items-center ">
 
                 <div className="d-flex align-items-center col-2">
                     <img
