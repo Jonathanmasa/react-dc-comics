@@ -2,8 +2,8 @@
 export default function Footer() {
     return (
     <footer>
-         <div className="container-fluid pt-3 foot-jumbotron d-flex">
-                <div className="jumbo-width">
+         <div className="container-fluid pt-3 foot-jumbotron  d-flex">
+                <div className="jumbo-width foot-dc">
                     <div className="row">
                         <div className="col-md-2">
                             <h5>DC COMICS</h5>
@@ -45,7 +45,6 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <img src="/public/dc-logo-bg.png" alt="dc logo" />
                 </div>
                 
             </div>
@@ -55,12 +54,14 @@ export default function Footer() {
                         <button className="btn btn-outline-primary">SIGN-UP NOW!</button>
                     </div>
                     <div class="mt-3 social-icons">
-                        <h5>FOLLOW US</h5>
-                        <a href="#"><img className="fab fa-facebook" src="/public/footer-facebook.png" alt="facebook"/></a>
-                        <a href="#"><img className="fab fa-twitter" src="/public/footer-twitter.png" alt="facebook"/></a>
-                        <a href="#"><img className="fab fa-youtube" src="/public/footer-youtube.png" alt="facebook"/></a>
-                        <a href="#"><img className="fab fa-pinterst" src="/public/footer-pinterest.png" alt="facebook"/></a>
-                        <a href="#"><img className="fab fa-google" src="/public/footer-periscope.png" alt="facebook"/></a>
+                        <span>FOLLOW US</span>
+                        <span>
+                            <a href="#"><img className="fab fa-facebook" src="/public/footer-facebook.png" alt="facebook"/></a>
+                            <a href="#"><img className="fab fa-twitter" src="/public/footer-twitter.png" alt="facebook"/></a>
+                            <a href="#"><img className="fab fa-youtube" src="/public/footer-youtube.png" alt="facebook"/></a>
+                            <a href="#"><img className="fab fa-pinterst" src="/public/footer-pinterest.png" alt="facebook"/></a>
+                            <a href="#"><img className="fab fa-google" src="/public/footer-periscope.png" alt="facebook"/></a>
+                        </span>
                     </div>
                 </div>
         </div>

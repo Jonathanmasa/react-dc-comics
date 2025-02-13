@@ -74,6 +74,14 @@ footer li a {
   
 }
 
+.foot-dc{
+  background-image: url(/public/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
+  
+}
+
 .foot-jumbotron img{
   width: 30%;
 }
@@ -94,10 +102,12 @@ footer li a {
 }
 
 .social-icons img {
-  width: 15%;
+  width: 8%;
+  margin: 2px;
 }
 
-.social-icons h5 {
+.social-icons span {
   font-size: 14px;
+  margin: 0 5px;
 }
 

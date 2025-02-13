@@ -7,15 +7,54 @@ export default function Main() {
             <h2>-- Content goes here --</h2>
         </div>
         
-        <div className="blue-bar text-white loghi-main">
-            <div className="container d-flex justify-content-between align-items-center dc-main-loghi">
-                <div><img src="/public/buy-comics-digital-comics.png" alt="Digital Comic" />Digital Comics</div>
-                <div><img src="/public/buy-comics-merchandise.png" alt="DC Merchandise" />DC Merchandise</div>
-                <div><img src="/public/buy-comics-subscriptions.png" alt="Subscription" />Subscription</div>
-                <div><img src="/public/buy-comics-shop-locator.png" alt="Comic Shop Locator" />Comic Shop Locator</div>
-                <div><img src="/public/buy-dc-power-visa.svg" alt="DC Power Visa" />DC Power Visa</div>
+        <div className="blue-bar text-white loghi-main py-3">
+            <div className="container d-flex flex-wrap justify-content-between align-items-center ">
+                <div className="d-flex flex-column align-items-center text-center">
+                    <img
+                    src="/public/buy-comics-digital-comics.png"
+                    alt="Digital Comic"
+                    className="img-fluid"
+                    />
+                    <span>Digital Comics</span>
+                </div>
+
+                <div className="d-flex flex-column align-items-center text-center">
+                    <img
+                    src="/public/buy-comics-merchandise.png"
+                    alt="DC Merchandise"
+                    className="img-fluid"
+                    />
+                    <span>DC Merchandise</span>
+                </div>
+
+                <div className="d-flex flex-column align-items-center text-center">
+                    <img
+                    src="/public/buy-comics-subscriptions.png"
+                    alt="Subscription"
+                    className="img-fluid"
+                    />
+                    <span>Subscription</span>
+                </div>
+
+                <div className="d-flex flex-column align-items-center text-center">
+                    <img
+                    src="/public/buy-comics-shop-locator.png"
+                    alt="Comic Shop Locator"
+                    className="img-fluid"
+                    />
+                    <span>Comic Shop Locator</span>
+                </div>
+
+                <div className="d-flex flex-column align-items-center text-center">
+                    <img
+                    src="/public/buy-dc-power-visa.svg"
+                    alt="DC Power Visa"
+                    className="img-fluid"
+                    />
+                    <span>DC Power Visa</span>
+                </div>
             </div>
-        </div>
+      </div>
     </main>
 
 
