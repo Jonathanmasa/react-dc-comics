@@ -1,5 +1,6 @@
-// importo productslist
+// importo comicslist
 import ComicsList from "./products/ComicsList.jsx";
+
 
 // Main.jsx
 export default function Main() {
@@ -10,13 +11,13 @@ export default function Main() {
             <button type="button" class="btn btn-primary">CURRENT SERIES</button>
         </div>
         
-        <ComicsList />
+        
 
-        {/* <div  className="content">
+        <div className="content">
             <div className="card-contain">
-                <h2>-- Content goes here --</h2>
+                <ComicsList />
             </div>
-        </div> */}
+        </div>
         
         <div className="blue-bar text-white loghi-main py-3">
             <div className="container col-9 d-flex flex-wrap justify-content-between align-items-center ">

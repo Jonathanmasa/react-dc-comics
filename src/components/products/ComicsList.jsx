@@ -1,5 +1,5 @@
-// importo product card
-import ProductCard from "./ComicsCard.jsx"
+// importo comicscard
+import ComicsCard from "./ComicsCard";
 
 
 export default function ComicsList(){
@@ -157,12 +157,17 @@ export default function ComicsList(){
           writers: ["Joëlle Jones"],
         },
       ];
+      
 
     
 
     // dati delle card DC
-    return {
-        
-    };
+    return (
+      <section id="comics">
+        <div className="comics-container">
+          {comics.map(comic => (<ComicsCard key={comic.id} thumb={comic.thumb} title={comic.title}/>))}
+        </div>
+      </section>
+    );
 }
 
