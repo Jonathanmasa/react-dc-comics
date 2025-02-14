@@ -85,6 +85,9 @@ header {
 
 
 /* footer */
+footer h5 {
+  color: white;
+}
 
 footer li a {
   color: rgb(120, 120, 120);
