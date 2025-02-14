@@ -36,6 +36,20 @@ header {
 }
 
 /* main */
+.head-jumbo {
+  height: 280px;
+  background-image: url(/public/jumbotron.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.head-jumbo .btn {
+  position: absolute;
+  bottom: -6%;
+  left: 10%;
+
+}
 .content {
   background-color: #111;
   height: 100px;
@@ -93,6 +107,11 @@ footer li a {
   color: rgb(120, 120, 120);
   text-decoration: none;
 }
+
+footer li a:hover {
+  color: whitesmoke;
+}
+
 .footer a:hover {
   text-decoration: underline;
  

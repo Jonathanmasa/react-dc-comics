@@ -3,6 +3,10 @@ export default function Main() {
     return (
     <main>
 
+        <div className="container-fluid head-jumbo">
+            <button type="button" class="btn btn-primary">CURRENT SERIES</button>
+        </div>
+
         <div  className="content">
             <div className="card-contain">
                 <h2>-- Content goes here --</h2>
