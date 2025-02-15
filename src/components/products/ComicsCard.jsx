@@ -1,12 +1,13 @@
 export default function ComicsCard(props) {
     return (
-      <div className="card" style={{ width: "18rem" }}>
-        <img
+      <div className="card col-lg-2 col-md-3 col-sm-5 p-2 ">
+        <img 
           src={props.comicInfo.thumb}
-          alt={props.comicInfo.title}
+          className="card-img-top"
+          alt={props.comicInfo.series}
         />
         <div className="card-body">
-          <h5 className="card-text">{props.comicInfo.title}</h5>
+          <h5 className="card-title pt-1 text-light">{props.comicInfo.series}</h5>
         </div>
       </div>
     );

@@ -164,7 +164,7 @@ export default function ComicsList(){
     // dati delle card DC
     return (
       <div className="content">
-          <div className="card-contain p-5">
+          <div className="container d-flex col-10 justify-content-between flex-wrap pt-5 ">
             {comics.map((comic) => <ComicsCard key={comic.id}
             comicInfo={comic} />)} 
           </div>

@@ -7,7 +7,7 @@ export default function Main() {
     return (
     <main>
 
-        <div className="container-fluid head-jumbo">
+        <div className="container-fluid main-jumbo">
             <button type="button" class="btn btn-primary">CURRENT SERIES</button>
         </div>
         

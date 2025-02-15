@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", serif;
+  font-family: "Montserrat", serif;
 }
 
 /* header */
@@ -11,6 +11,7 @@ body {
   width: 80%;
   margin: 0 auto;
   font-weight: bold;
+  font-size: 13px;
 
 }
 
@@ -22,7 +23,7 @@ body {
 .nav-link.active {
   color: rgb(93, 93, 242) !important;
   border-bottom: 4px solid  rgb(93, 93, 242) !important;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
   margin-bottom: -20px;
   
 }
@@ -36,7 +37,7 @@ header {
 }
 
 /* main */
-.head-jumbo {
+.main-jumbo {
   height: 280px;
   background-image: url(/public/jumbotron.jpg);
   background-size: cover;
@@ -44,16 +45,30 @@ header {
   position: relative;
 }
 
-.head-jumbo .btn {
+.main-jumbo .btn {
   position: absolute;
   bottom: -7%;
   left: 10%;
-
+/* card */
 }
 .content {
   background-color: #111;
-  
-  
+
+}
+
+.card {
+  border: none !important;
+  background-color: #111 !important;
+}
+
+.card-img-top {
+  width: 80%;
+  height: 50%;
+}
+
+
+.card-body {
+  padding-bottom: 0% !important;
 }
 
 .card-contain {
@@ -62,9 +77,8 @@ header {
 
 }
 
-.content h2 {
-  line-height: 100px;
-  color: gray;
+.content h5 {
+  font-size: 14px;
 
 }
 
