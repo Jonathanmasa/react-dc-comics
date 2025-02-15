@@ -12,12 +12,8 @@ export default function Main() {
         </div>
         
         
-
-        <div className="content">
-            <div className="card-contain">
-                <ComicsList />
-            </div>
-        </div>
+        <ComicsList />
+        
         
         <div className="blue-bar text-white loghi-main py-3">
             <div className="container col-9 d-flex flex-wrap justify-content-between align-items-center ">
